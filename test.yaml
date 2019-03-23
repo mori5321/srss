@@ -1,0 +1,38 @@
+# # applications.yaml
+# - application: kernel
+#   version:     2.15.3
+#   path:        /usr/local/lib/erlang/lib/kernel-2.15.3
+# - application: stdlib
+#   version:     1.18.3
+#   path:        /usr/local/lib/erlang/lib/stdlib-1.18.3
+# - application: sasl
+#   version:     2.2.1
+#   path:        /usr/local/lib/erlang/lib/sasl-2.2.1
+
+
+
+project:
+  title: "ProjectA"
+  stories:
+    - title: "StoryA"
+      todos: 
+        - title: "TodoA"
+          normal: 10
+          max: 20
+        - title: "TodoB"
+          normal: 5
+          max: 10
+        - title: "TodoC"
+          normal: 20
+          max: 30
+    - title: "StoryB"
+      todos: 
+        - title: "TodoD"
+          normal: 10
+          max: 20
+        - title: "TodoE"
+          normal: 5
+          max: 10
+        - title: "TodoF"
+          normal: 20
+          max: 30
